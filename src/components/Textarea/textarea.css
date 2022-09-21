@@ -1,0 +1,21 @@
+textarea {
+    resize: none;
+    height: 25vh;
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    background: #564E58;
+    color: #ffffff;
+    border: none;
+}
+
+textarea::placeholder {
+    color: #F2EFE9;
+}
+
+@media(max-width: 600px) {
+    textarea {
+        max-height: 20vh;
+    }
+}
